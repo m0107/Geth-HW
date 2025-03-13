@@ -1,0 +1,37 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs (e.g., compiled contracts)
+build/
+
+# Environment variables file
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor folders and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Geth data directories (if you want to ignore blockchain data folders)
+node1/
+node2/
+
+# Coverage directory (if using a testing framework)
+coverage/
+
+# Temporary files
+tmp/
+temp/
