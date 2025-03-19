@@ -24,25 +24,25 @@ async function deployContract() {
     const contract = new web3.eth.Contract(abi);
 
     // Deploy the contract
-    console.log(bytecode);
+    console.log("Bytecode:", bytecode);
     const deployedContract = await contract.deploy({
       data: bytecode,
       arguments: [] // no constructor arguments for SimpleStorage
     }).send({
       from: accounts[0],
-      gas: 1500000,
-      gasPrice: '30000000000'
+      gas: 7618500,
+      gasPrice: '2'
     });
 
     console.log("Contract deployed at address:", deployedContract.options.address);
 
-    // Call the set function to store a value (e.g., 42)
-    await deployedContract.methods.set(42).send({ from: accounts[0] });
-    console.log("Value set to 42");
+    // // Call the set function to store a value (e.g., 42)
+    // await deployedContract.methods.set(42).send({ from: accounts[0] });
+    // console.log("Value set to 42");
 
-    // Call the get function to retrieve the stored value
-    const storedValue = await deployedContract.methods.get().call();
-    console.log("Stored value is:", storedValue);
+    // // Call the get function to retrieve the stored value
+    // const storedValue = await deployedContract.methods.get().call();
+    // console.log("Stored value is:", storedValue);
 
   } catch (err) {
     console.error("An error occurred:", err);

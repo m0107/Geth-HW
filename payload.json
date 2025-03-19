@@ -1,0 +1,433 @@
+// Create User
+{
+    "name": "haha",
+    "username": "haha@gmail.com",
+    "mobile": "6927272727",
+    "email": "haha@gmail.com",
+    "dob": ",
+    "aadhaar": "444444444444",
+    "panCard": "DIDHD2121L",
+    "address": ",
+    "district": "District 3",
+    "taluka": "",
+    "state": "",
+    "village": "",
+    "subCaste": "",
+    "underCaste": "",
+    "primaryRequirement": "",
+    "safaiKarmachari": "",
+    "safaiKarmachariId": "test",
+    "password": "U2FsdGVkX18ataWqac6H546IeLOjbY5eHaiLy4q9dhs=",
+    "role": "Manager",
+    "notificationPreferences": {
+        "email": true,
+        "sms": true,
+        "inApp": true,
+        "events": {
+            "loanApproval": false,
+            "taskassigned": false,
+            "documentRequired": true
+        }
+    }
+}
+// Edit user
+{
+    "id": "testcucjcnc",
+    "data": {
+        "name": "haha",
+        "username": "haha@gmail.com",
+        "mobile": "6927272727",
+        "email": "haha@gmail.com",
+        "dob": "",
+        "aadhaar": "444444444444",
+        "panCard": "DIDHD2121L",
+        "address": "",
+        "district": "District 3",
+        "taluka": "",
+        "state": "",
+        "village": "",
+        "subCaste": "",
+        "underCaste": "",
+        "primaryRequirement": "",
+        "safaiKarmachari": "",
+        "safaiKarmachariId": "test",
+        "password": "U2FsdGVkX18ataWqac6H546IeLOjbY5eHaiLy4q9dhs=",
+        "role": "Manager",
+        "notificationPreferences": {
+            "email": true,
+            "sms": true,
+            "inApp": true,
+            "events": {
+                "loanApproval": false,
+                "taskassigned": false,
+                "documentRequired": true
+            }
+        }
+    }
+}
+// Delete User
+{
+    "id": "testcucjcnc",
+    "data": {
+        "deleted": 1
+    }
+}
+// Suspend User
+{
+    "id": "testcucjcnc",
+    "data": {
+        "suspended": 1
+    }
+}
+// Reactivate Account
+{
+    "name": "haha",
+    "username": "haha@gmail.com",
+    "mobile": "6927272727",
+    "email": "haha@gmail.com",
+    "dob": "",
+    "aadhaar": "444444444444",
+    "panCard": "DIDHD2121L",
+    "address": "",
+    "district": "District 3",
+    "taluka": "",
+    "state": "",
+    "village": "",
+    "subCaste": "",
+    "underCaste": "",
+    "primaryRequirement": "",
+    "safaiKarmachari": "",
+    "safaiKarmachariId": "test",
+    "password": "U2FsdGVkX18ataWqac6H546IeLOjbY5eHaiLy4q9dhs=",
+    "role": "Manager",
+    "next_ref": "mongo_id",
+    "notificationPreferences": {
+        "email": true,
+        "sms": true,
+        "inApp": true,
+        "events": {
+            "loanApproval": false,
+            "taskassigned": false,
+            "documentRequired": true
+        }
+    },
+    "logs": [
+        {
+            "name": "haha",
+            "username": "haha@gmail.com",
+            "mobile": "6927272727",
+            "email": "haha@gmail.com",
+            "dob": "",
+            "aadhaar": "444444444444",
+            "panCard": "DIDHD2121L",
+            "address": "",
+            "district": "District 3",
+            "taluka": "",
+            "state": "",
+            "village": "",
+            "subCaste": "",
+            "underCaste": "",
+            "primaryRequirement": "",
+            "safaiKarmachari": "",
+            "safaiKarmachariId": "test",
+            "password": "U2FsdGVkX18ataWqac6H546IeLOjbY5eHaiLy4q9dhs=",
+            "role": "Manager",
+            "next_ref": "mongo_id",
+            "notificationPreferences": {
+                "email": true,
+                "sms": true,
+                "inApp": true,
+                "events": {
+                    "loanApproval": false,
+                    "taskassigned": false,
+                    "documentRequired": true
+                }
+            }
+        }
+    ]
+}
+
+//RBAC for App access
+{
+    "validation": false,
+    "role": "Master Admin",
+    "permissions": [
+        {
+            "type": "Navbar",
+            "pageData": {
+                "Dashboard": {
+                    "url": "/home",
+                    "icon": "homeOutline",
+                    "icon2": "homeSharp"
+                },
+                "Schemes": {
+                    "url": "/schemes",
+                    "icon": "fileTextOutline",
+                    "icon2": "fileTextSharp"
+                },
+                "Reports": {
+                    "url": "/reports",
+                    "icon": "barChartOutline",
+                    "icon2": "barChartSharp"
+                },
+                "Members": {
+                    "url": "/add-member",
+                    "icon": "personOutline",
+                    "icon2": "personSharp"
+                },
+                "New Loan": {
+                    "url": "/new-loan",
+                    "icon": "cashOutline",
+                    "icon2": "cashSharp"
+                },
+                "Manage Pages": {
+                    "url": "/manage-pages",
+                    "icon": "fileTrayOutline",
+                    "icon2": "fileTraySharp"
+                },
+                "Database Access": {
+                    "url": "/access-list",
+                    "icon": "keyOutline",
+                    "icon2": "keySharp"
+                },
+                "Branch Master": {
+                    "url": "/branch-table",
+                    "icon": "tableOutline",
+                    "icon2": "tableSharp"
+                },
+                "Access Mapping": {
+                    "url": "/access-mapping",
+                    "icon": "accessibilityOutline",
+                    "icon2": "accessibilityOutline"
+                },
+                "Roles": {
+                    "url": "/roles",
+                    "icon": "shieldOutline",
+                    "icon2": "shieldSharp"
+                },
+                "Workflow": {
+                    "url": "/workflow",
+                    "icon": "shuffleOutline",
+                    "icon2": "shuffleOutline"
+                },
+                "Calculation Formula": {
+                    "url": "calculation-formula",
+                    "icon": "formulaOutline",
+                    "icon2": "formulaOutline"
+                },
+                "Branch Mapping": {
+                    "url": "/branch-mapping",
+                    "icon": "gitBranchOutline",
+                    "icon2": "gitBranchOutline"
+                },
+                "Cast Master": {
+                    "url": "cast-master",
+                    "icon": "peopleOutline",
+                    "icon2": "peopleOutline"
+                },
+                "Taluka Master": {
+                    "url": "taluka-list",
+                    "icon": "locationOutline",
+                    "icon2": "locationOutline"
+                }
+            }
+        },
+        {
+            "type": "Master",
+            "pageData": {
+                "Role": [
+                    "add",
+                    "view",
+                    "delete",
+                    "edit"
+                ],
+                "User": [
+                    "add",
+                    "view",
+                    "delete",
+                    "edit"
+                ],
+                "Branch": [
+                    "add",
+                    "view",
+                    "delete",
+                    "edit"
+                ],
+                "Pages": [
+                    "add",
+                    "view",
+                    "delete",
+                    "edit"
+                ],
+                "Caste Master": [
+                    "add",
+                    "view",
+                    "delete",
+                    "edit"
+                ],
+                "Taluka Master": [
+                    "add",
+                    "view",
+                    "delete",
+                    "edit"
+                ],
+                "Access Mapping": [
+                    "add",
+                    "view",
+                    "delete",
+                    "edit"
+                ],
+                "Database Access": [
+                    "add",
+                    "view",
+                    "delete",
+                    "edit"
+                ]
+            }
+        }
+    ]
+}
+
+// new loan 
+{
+    "loanId": "L12345",
+    "loanAmount": 250000,
+    "loanType": "Home",
+    "loanTerm": 5,
+    "interestRate": 8.5,
+    "startDate": "2025-03-01",
+    "endDate": "2030-03-01",
+    "status": "Pending",
+    "applicant": {
+      "userId": "U12345",
+      "firstName": "John",
+      "lastName": "Doe",
+      "gender": "Male",
+      "dob": "1985-05-15",
+      "mobile": "9876543210",
+      "email": "john.doe@example.com",
+      "address": {
+        "residentialAddress": "123 Elm Street, Springfield",
+        "currentAddress": "456 Oak Avenue, Springfield"
+      },
+      "documents": [
+        {
+          "documentType": "Aadhar",
+          "description": "Applicant Aadhar Card",
+          "dateTimestamp": "2025-02-26T14:00:00Z",
+          "approval": "Approved",
+          "comments": "Identity verified"
+        },
+        {
+          "documentType": "PAN",
+          "description": "Applicant PAN for financial verification",
+          "dateTimestamp": "2025-02-27T10:30:00Z",
+          "approval": "Pending",
+          "comments": "Under review"
+        }
+      ]
+    },
+    "guarantors": [
+      {
+        "guarantorType": "Person",
+        "guarantorId": "G54321",
+        "firstName": "Alice",
+        "lastName": "Smith",
+        "relationship": "Friend",
+        "mobile": "1234567890",
+        "email": "alice.smith@example.com",
+        "address": "789 Pine Road, Springfield",
+        "description": "Personal guarantor for home loan",
+        "amount": 100000,
+        "dateTimestamp": "2025-02-26T14:00:00Z",
+        "approvalStatus": "Approved",
+        "comments": "Guarantor identity verified"
+      }
+    ],
+    "collaterals": [
+      {
+        "collateralId": "C9876",
+        "type": "Property",
+        "description": "House at 123 Elm Street, Springfield",
+        "estimatedValue": 500000,
+        "amount": 400000,
+        "dateTimestamp": "2025-02-28T10:00:00Z",
+        "approvalStatus": "Approved",
+        "comments": "Property verified and valued"
+      }
+    ],
+    "workflowHistory": [
+      {
+        "taskId": "T1",
+        "taskName": "Clerk - Application Received",
+        "status": "Application Received",
+        "role": "Clerk",
+        "name":"Krishna",
+        "timestamp": "2025-03-01T10:00:00Z"
+      },
+      {
+        "taskId": "T2",
+        "taskName": "DM - Due Diligence",
+        "status": "Due Diligence Verified",
+        "role": "DM",
+        "name":"Krishna",
+        "timestamp": "2025-03-02T11:30:00Z"
+      }
+    ],
+    "repaymentSchedule": [
+      {
+        "paymentId": "P1",
+        "dueDate": "2025-04-01",
+        "actualPaymentDate": "2025-04-03",
+        "gracePeriod": 2,
+        "penalty": 0,
+        "emiAmount": 5000,
+        "interestComponent": 2000,
+        "principalComponent": 3000,
+        "remainingAmount": 245000,
+        "status": "Paid",
+        "emiPaid": true
+      },
+      {
+        "paymentId": "P2",
+        "dueDate": "2025-05-01",
+        "actualPaymentDate": "2025-05-05",
+        "gracePeriod": 2,
+        "penalty": 200,
+        "emiAmount": 5000,
+        "interestComponent": 1950,
+        "principalComponent": 3050,
+        "remainingAmount": 241950,
+        "status": "Paid with Penalty",
+        "emiPaid": true
+      },
+      {
+        "paymentId": "P3",
+        "dueDate": "2025-06-01",
+        "actualPaymentDate": "2025-06-01",
+        "gracePeriod": 0,
+        "penalty": 0,
+        "emiAmount": 5000,
+        "interestComponent": 1900,
+        "principalComponent": 3100,
+        "remainingAmount": 238850,
+        "status": "Paid",
+        "emiPaid": true
+      },
+      {
+        "paymentId": "P4",
+        "dueDate": "2025-07-01",
+        "actualPaymentDate": null,
+        "gracePeriod": 5,
+        "penalty": 0,
+        "emiAmount": 5000,
+        "interestComponent": 1850,
+        "principalComponent": 3150,
+        "remainingAmount": 235700,
+        "status": "Pending",
+        "emiPaid": false
+      }
+    ]
+  }
+  
+  
