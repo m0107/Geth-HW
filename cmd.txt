@@ -1,0 +1,8 @@
+curl -X POST -H "Content-Type: application/json" --data '{"method":"eth_blockNumber","params":[],"id":1,"jsonrpc":"2.0"}' http://127.0.0.1:32843
+
+curl -X POST -H "Content-Type: application/json" --data '{"method":"eth_accounts","params":[],"id":585858,"jsonrpc":"2.0"}' http://127.0.0.1:32831
+
+ kurtosis service shell  forgotten-bluff  el-1-geth-lighthouse  
+
+
+ forgotten-bluff

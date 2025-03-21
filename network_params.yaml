@@ -1,5 +1,6 @@
 participants:
   - el_type: geth
+    el_image: "my-geth-with-clef:latest"
     cl_type: lighthouse
     count: 2
     el_extra_params: ["--http.api", "personal,eth,net,web3,admin"]
